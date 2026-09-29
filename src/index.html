@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated Static Website with CI/CD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Automated Static Website with CI/CD</h1>
+    <p>By Yuvraj Pateria | SRN: PES1UG24CS547</p>
+  </header>
+  <main>
+    <p>This page was tested and deployed automatically by GitHub Actions.</p>
+    <button id="btn">Click me</button>
+    <p id="msg"></p>
+  </main>
+  <script>
+    document.getElementById("btn").addEventListener("click", function () {
+      document.getElementById("msg").textContent = "CI/CD pipeline is working!";
+    });
+  </script>
+</body>
+</html>

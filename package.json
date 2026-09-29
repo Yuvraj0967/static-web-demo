@@ -1,0 +1,9 @@
+﻿{
+  "name": "static-web-demo",
+  "version": "1.0.0",
+  "description": "Static website with CI/CD using GitHub Actions",
+  "scripts": {
+    "test": "node tests/site.test.js"
+  },
+  "license": "MIT"
+}
